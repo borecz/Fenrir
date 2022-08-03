@@ -1,0 +1,19 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "Cypress + Cucumber + Typescript ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@borecorp_gh.github.com:borecz/Fenrir.git"
+  },
+  "author": "Simone Borelli",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.0.0",
+    "cypress": "^10.4.0",
+    "typescript": "^4.7.4"
+  }
+}
