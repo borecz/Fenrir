@@ -1,9 +1,13 @@
-import { defineConfig } from 'cypress';
+import 'dotenv/config'
 
-module.exports = defineConfig({
+import { defineConfig } from 'cypress'
+
+export default defineConfig({
+  projectId: process.env.CYPRESS_PROJECT_ID,
   e2e: {
-    setupNodeEvents(on: any, config: any) {
-      // implement node event listeners here
-    },
-  },
-});
+    baseUrl: 'https://www.w3.org/',
+    specPattern: '**/*.feature',
+    supportFile: 'cypress/support/e2e.ts',
+    setupNodeEvents: require('./cypress/plugins/index.ts')
+  }
+})

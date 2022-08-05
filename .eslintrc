@@ -1,0 +1,42 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "cypress",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "extends": [
+    "plugin:cypress/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "warn",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-var-requires": "warn",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "prettier/prettier": "off"
+  },
+  "env": {
+    "cypress/globals": true,
+    "es6": true,
+    "node": true
+  },
+  "overrides": [
+    {
+      "files": "cypress/pages/**/*.ts",
+      "rules": {
+        // "no-unused-expressions": "off",
+        "chai-friendly/no-unused-expressions": "off"
+      },
+    }
+  ]
+}
