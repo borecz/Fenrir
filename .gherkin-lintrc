@@ -15,8 +15,8 @@
       "Scenario": 4,
       "Step": 8,
       "Background": 0,
-      "Examples": 4,
-      "example": 8
+      "Examples": 8,
+      "example": 12
     }
   ],
   "no-trailing-spaces": "on",

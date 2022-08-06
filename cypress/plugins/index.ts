@@ -1,4 +1,5 @@
-//For Cucumber Integration
+/* eslint-disable @typescript-eslint/no-var-requires */
+// For Cucumber Integration
 const createEsbuildPlugin =
   require('@badeball/cypress-cucumber-preprocessor/esbuild').createEsbuildPlugin
 

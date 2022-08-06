@@ -1,9 +1,4 @@
-import {
-  And,
-  DataTable,
-  Given,
-  Then
-} from '@badeball/cypress-cucumber-preprocessor'
+import { DataTable, Given, Then } from '@badeball/cypress-cucumber-preprocessor'
 
 before(() => {
   console.clear()
@@ -36,6 +31,7 @@ Then(
 Then('there are no console errors on page load', function () {
   const DELAY = 1000
 
+  // eslint-disable-next-line cypress/no-unnecessary-waiting
   cy.wait(DELAY).then(() => {
     expect(this.spy).to.not.be.called
   })

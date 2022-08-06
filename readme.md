@@ -7,10 +7,9 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fenrir&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fenrir)
 
-sonarcloud https://sonarcloud.io/project/overview?id=fenrir
-cypress dashboard https://dashboard.cypress.io/projects/myhyq1/
 
-# Codename Fenrir - Cypress + Cucumber + POM + Typescript & more
+# Fenrir 
+## Cypress + Cucumber + POM + Typescript & more
 
 ## Packages and Plugins
 
@@ -26,3 +25,12 @@ cypress dashboard https://dashboard.cypress.io/projects/myhyq1/
 - ### code formatter [Prettier](https://prettier.io/)
 
 - ### pre-commit-hook [Husky](https://github.com/typicode/husky)
+
+<br>
+<br>
+
+## [Conventional commits](docs/commits.md)
+Check the related [doc](docs/commits.md) 
+
+Important! Commit convention is enforced via the [commitlint](https://commitlint.js.org/#/) package integrated with Husky
+
