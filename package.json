@@ -54,7 +54,7 @@
       "prettier --write"
     ],
     "*.feature": [
-      "yarn run gherkin:lint"
+      "yarn gherkin:lint"
     ]
   }
 }

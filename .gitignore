@@ -7,7 +7,8 @@ cypress/screenshots
 yarn-error.log
 .vscode/*
 
-instructions.md
+CODING_EXERCISE.md
+TEST_DESIGN.md
 
 .vscode/*
 !.vscode/settings.json

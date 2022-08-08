@@ -1,6 +1,6 @@
 # [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 
-```
+```sh
 <type>[optional scope]: <description>
 
 [optional body]
@@ -24,17 +24,17 @@ A scope may be provided to a commit’s type, to provide additional contextual i
 
 ### Examples
 - Commit message with ! to draw attention to breaking change
-  ```
+  ```sh
   feat!: send an email to the customer when a product is shipped
   ```
 
 - Commit message with scope and ! to draw attention to breaking change
-  ```
+  ```sh
   feat(api)!: send an email to the customer when a product is shipped
   ```
 
 - Commit message with both ! and BREAKING CHANGE footer
-  ```
+  ```sh
   chore!: drop support for Node 6
 
   BREAKING CHANGE: use JavaScript features not available in Node 6.
